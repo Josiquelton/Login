@@ -1,0 +1,41 @@
+
+ 
+.Principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Title{
+    width: 250px;
+    border: 3px solid #A9A9A9;
+    border-radius: 5px;
+    background-color: #A9A9A9;
+    padding: 55px  155px 120px;
+    margin-left: 120px;
+}
+
+.Title h1{
+ color: #1E90FF;
+ font-size: 45px;
+ font-family: Arial;
+}
+
+.Title input{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.Title button{
+    width: 150px;
+    height: 45px;
+    margin-top: 15px ;
+    color: #1E90FF;
+    background-color: #FFFFFF;
+}
+
+.Title button:hover{
+    color: #FFFFFF;
+    background-color: #1E90FF;
+}
