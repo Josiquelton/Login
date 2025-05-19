@@ -1,0 +1,84 @@
+/*  Inicio do codigo   */
+*{
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+.nav img{
+  width: 225px;
+  border-radius: 5px;
+  margin-left: 650px;
+
+}
+.nav-links-desktop{
+  width: 400px;
+  margin-top: -100px;
+  margin-left: 200px;
+  font-size: 25px;
+  border: 3px solid rgba(0 , 0, 0, 0.9);
+  border-radius: 5px;
+  background-color: rgba(0 , 0, 0, 0.9);
+}
+
+.nav-links-desktop li{
+  list-style: none;
+}
+
+.nav-links-desktop a{
+  color: #FFFFFF;
+}
+
+.nav-links-desktop a:hover{
+  color: #6495ED;
+}
+
+.navbar img{
+  width: 25px;
+}
+
+/* formulario */
+
+.login{
+  margin-top: 155px;
+  margin-left: 200px;
+  border: 3px solid #000;
+  border-radius: 8px;
+  background-image: url("./assets/login.jpeg");
+  
+}
+
+form{
+  padding: 50px;
+}
+
+h5{
+  color:rgba(0 , 0, 0, 0.9);
+}
+
+::placeholder{
+  padding-left: 5px;
+}
+
+input{
+  width: 195px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+button{
+  width: 185px;
+  color: #FFFFFF;
+  border: 3px solid #6495ED;
+  border-radius: 5px;
+  background-color: #6495ED;
+}
+
+button:hover{
+  color: #6495ED;
+  border: 3px solid rgba(0 , 0, 0, 0.9);
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+/* imagem*/
+
